@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'header';
-  isShow: boolean = true;
+  isShowContent: boolean = true;
 
 }
