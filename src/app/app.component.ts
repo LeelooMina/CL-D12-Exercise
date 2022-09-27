@@ -10,4 +10,10 @@ export class AppComponent {
   title:string = 'header';
   changeColor: string = "green";
 
+  foods: string[] = [
+    "chicken",
+    "apple",
+    "rice"
+  ]
+
 }

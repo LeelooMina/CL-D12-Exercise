@@ -1,3 +1,4 @@
-<p [ngStyle]="{ 'color': changeColor}">{{changeColor}}</p>
 
-<input [(ngModel)]="changeColor">
+<div *ngFor="let food of foods">
+  <p>{{food}}</p>
+</div>
