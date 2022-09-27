@@ -9,4 +9,8 @@ export class AppComponent {
   title = 'CL-D12-Exercise';
   width: number = 300;
   height: number = 400;
+
+  onClick(){
+    console.log("This is a message, logged in the console.");
+  }
 }
