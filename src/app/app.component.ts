@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'header';
-  myColor: string = "green";
+  changeColor: string = "green";
 
 }
