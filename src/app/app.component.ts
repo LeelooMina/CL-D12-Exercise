@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'CL-D12-Exercise';
-  isDisabled = true;
-
+  title:string = 'header';
 
 }
