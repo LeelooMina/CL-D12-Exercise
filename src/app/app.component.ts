@@ -7,10 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CL-D12-Exercise';
-  width: number = 300;
-  height: number = 400;
+  isDisabled = true;
 
-  onClick(){
-    console.log("This is a message, logged in the console.");
-  }
+
 }

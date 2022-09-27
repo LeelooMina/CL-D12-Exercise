@@ -1,1 +1,3 @@
-<button (click)="onClick()">Click me to log to the console!</button>
+<input [disabled]="isDisabled">
+
+<button (click)="isDisabled = !isDisabled"> {{ isDisabled ? "isDisabled is true" : "isDisabled is false"}}</button>
